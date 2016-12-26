@@ -1,0 +1,20 @@
+<div class="col s3">
+  <div class="card">
+    <div (click)="gotoDetail()" class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="{{artist.largeImage}}">
+    </div>
+    <div class="card-content">
+    
+           
+      <span class="card-title activator grey-text text-darken-4">{{artist.name}}<i class="material-icons right">more_vert</i></span>
+           <p style="text-align: center;"> <i class="material-icons">supervisor_account</i> {{artist.listeners}} 
+      <i class="material-icons">play_circle_filled</i> {{artist.playcount}}
+      </p>
+        
+      
+<!--       <p><a (click)="gotoDetail()" href="#">This is a link</a></p> -->
+<!--       <button (click)="gotoDetail()">View Details</button> -->
+    </div>
+    
+  </div>
+</div>

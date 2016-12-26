@@ -1,0 +1,6 @@
+ <div style="margin-left:10px;margin-right:10px" class="row">
+     <artist-card *ngFor="let artist of artists let itemIndex = index" 
+               [artist]="artist"
+			   (choosen)="onChoosen(itemIndex)">
+	</artist-card>
+  </div>
