@@ -1,5 +1,6 @@
 package com.music.client;
 
+import com.music.client.components.AboutComponent;
 import com.music.client.components.ApplicationComponent;
 import com.music.client.components.ArtistCardComponent;
 import com.music.client.components.ArtistDetailComponent;
@@ -24,7 +25,9 @@ import jsinterop.annotations.JsType;
 				TopArtistsComponent.class,
 				ArtistCardComponent.class,
 				ArtistDetailComponent.class,
-				NavigationComponent.class
+				NavigationComponent.class,
+				AboutComponent.class
+		
 		},
 		providers={
 				ArtistService.class

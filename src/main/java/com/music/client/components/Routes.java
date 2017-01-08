@@ -24,7 +24,11 @@ public class Routes implements ProviderWrapper
 						DashboardComponent_AngularComponent.getComponentPrototype() ),
 				RouterConfig.route( 
 						"detail/:id", 
-						ArtistDetailComponent_AngularComponent.getComponentPrototype() ) ),
+						ArtistDetailComponent_AngularComponent.getComponentPrototype() ),
+				RouterConfig.route( 
+						"about", 
+						AboutComponent_AngularComponent.getComponentPrototype() )),
+				
 				new JsObject().set( "useHash", true ) );
 	}
 }
