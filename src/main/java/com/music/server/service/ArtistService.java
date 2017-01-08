@@ -41,7 +41,7 @@ public class ArtistService {
 	     List<Artist> recievedData = artists.getArtists().getArtist();
 		 
 	     for (Artist artist : recievedData) {
-			artist.setLargeImage(artist.getImage().get(2).getUrl());
+			artist.setLargeImage(artist.getImage().get(3).getUrl());
 			result.add(artist);
 		}
 	     
