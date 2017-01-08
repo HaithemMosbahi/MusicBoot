@@ -37,10 +37,8 @@
 	<!-- This tag will be handled by the ApplicationComponent angular component class -->
 	<my-app class="container">Application is loading...</my-app>
 	<script type="text/javascript">
-	 // Initialize collapse button
-	  $(".button-collapse").sideNav();
-	  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-	  //$('.collapsible').collapsible();
-	</script>
+	  $(document).ready(function(){
+		  $(".button-collapse").sideNav();
+		});
 </body>
 </html>
